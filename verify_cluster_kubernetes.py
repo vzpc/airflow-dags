@@ -8,7 +8,7 @@ default_args = {
 }
 
 dag = DAG(
-    'verify_cluster',
+    'verify_cluster_kubernetes',
     default_args=default_args,
     schedule_interval=timedelta(days=1))
 
