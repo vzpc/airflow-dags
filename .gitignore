@@ -130,3 +130,7 @@ dmypy.json
 
 # Pipenv files
 Pipfile.lock
+
+# IDEA files
+*.iml
+.idea
